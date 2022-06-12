@@ -16,21 +16,17 @@ body {
 
 .nav-container {
           width: 100%;
-          /*   width: calc(100vw - 2rem); */
-
           padding: 0 1.5rem;
           margin: 0 auto;
 }
 
 header {
           width: 100%;
-          /*   height: 10vh; */
           position: fixed;
           top: 0;
           left: 0;
           transition: background-color 0.5s ease;
           z-index: 10;
-
           margin: 0 auto;
 }
 
@@ -41,7 +37,6 @@ header {
           width: 90%;
           margin: 0.5rem auto;
           height: 7rem;
-
           border-bottom: 2px solid rgba(255, 255, 255, 0.05);
           transition: height 0.5s ease;
           animation: borderFade 4s backwards;
@@ -342,7 +337,6 @@ header {
           background-repeat: repeat-x;
           overflow: hidden;
 
-          /*   overflow: hidden; */
           /***test*/
           display: flex;
           align-items: center;
@@ -374,15 +368,7 @@ header {
           border-right: 2px solid #5f5555;
           border-left: 2px solid #2e2b2b;
 }
-/* .planets-row-reverse {
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          flex-direction: row-reverse;
-}
-.iss {
-          margin-left: auto;
-} */
+
 .planet {
           transform: translateX(100rem);
           animation: slideIn 0.8s forwards;
@@ -484,31 +470,24 @@ header {
           }
           25% {
                     transform: translate(-80%, -40%);
-                    /*  transform: scale(1.055); */
           }
           40% {
                     transform: translate(-95%, -40%);
-                    /*    transform: scale(1.088); */
           }
           60% {
                     transform: translate(-105%, -40%);
-                    /*  transform: scale(1.095); */
           }
           70% {
                     transform: translate(-115%, -40%);
-                    /*   transform: scale(1.155); */
           }
           80% {
                     transform: translate(-125%, -40%);
-                    /*    transform: scale(1.295); */
           }
           90% {
                     transform: translate(-145%, -40%);
-                    /*    transform: scale(1.395); */
           }
           100% {
                     transform: translate(-155%, -40%);
-                    /*    transform: scale(1.395); */
           }
 }
 @keyframes JupiterOrbiting {
@@ -523,54 +502,33 @@ header {
           }
           25% {
                     transform: translate(-50%, 70%);
-                    /*  transform: scale(1.055); */
           }
           40% {
                     transform: translate(-50%, 80%);
-                    /*    transform: scale(1.088); */
           }
           50% {
                     transform: translate(-52%, 86%);
-                    /*    transform: scale(1.088); */
           }
           60% {
                     transform: translate(-54%, 90%);
-                    /*  transform: scale(1.095); */
           }
           70% {
                     transform: translate(-56%, 100%);
-                    /*    transform: scale(0.955); */
           }
           80% {
                     transform: translate(-58%, 110%);
-                    /*    transform: scale(0.8); */
           }
           90% {
                     transform: translate(-60%, 120%);
-                    /* transform: scale(0.755); */
           }
           100% {
                     transform: translate(-62%, 130%);
-                    /* transform: scale(0.5); */
           }
 }
 @keyframes SaturnOrbiting {
           0% {
                     transform: translate(50%, -50%);
           }
-
-          /*     40% {
-                    transform: translate(50%, -10%);
-                   
-          }
-          60% {
-                    transform: translate(50%, -20%);
-                   
-          }
-          80% {
-                    transform: translate(60%, -30%);
-                    
-          } */
 
           100% {
                     transform: translate(-100%, 80%);
@@ -631,8 +589,6 @@ header {
           width: auto;
           height: auto;
           padding: 1.5em 1.8em;
-          /*       background-color: rgba(8, 1, 1, 0.2);
-          background-color: rgba(101, 25, 223, 0.3); */
           display: flex;
           flex-direction: column;
           align-items: left;
@@ -665,8 +621,8 @@ header {
           align-items: left;
           justify-content: left;
           gap: 0.5rem;
-          animation: fadeInDataa 4s alternate;
-          animation: fadeInDataa 10s infinite;
+          animation: fadeInData 4s alternate;
+          animation: fadeInData 10s infinite;
           animation-delay: 0.1s;
           opacity: 1;
 
@@ -883,12 +839,6 @@ header {
           animation: slideInShuttle 0.2s forwards;
 }
 
-/* @keyframes slideInShuttle {
-    100% {
-        transform: translateX(0);
-    }
-} */
-
 .fa-long-arrow-alt-right,
 .fa-rocket {
           margin-left: 10px;
@@ -942,7 +892,6 @@ header {
           text-transform: capitalize;
           margin-right: auto;
           transition-delay: 0.2s ease all;
-          /*  flex-basis: 60%; */
           padding: 15px 15px 15px 0;
 }
 
@@ -1008,12 +957,6 @@ header {
           height: 100%;
           background-color: rgba(0, 0, 0, 0.3);
 }
-/* .countdown-container:hover {
-          cursor: pointer;
-          outline: 2px solid #6519df;
-          border: none;
-          transition: 400ms all;
-} */
 
 .countdown-container h1 {
           font-size: 50px;
@@ -1025,8 +968,6 @@ header {
 
 .countdown {
           display: flex;
-          /*  opacity: 1;
-          animation: blinkBorder 1s linear infinite; */
 }
 @keyframes blinkBorder {
           50% {
@@ -1051,7 +992,6 @@ header {
 .time small {
           text-transform: capitalize;
           font-weight: lighter;
-          /*  color: #6519df; */
 }
 
 /**************************************** end countdown style *****/
@@ -1171,7 +1111,6 @@ header {
           right: 10px;
           right: 0.8em;
           color: transparent;
-          /*    visibility: hidden; */
 }
 
 .form-control small {
@@ -1441,7 +1380,6 @@ header {
 }
 .timeline-content p {
           font-size: 13px;
-          /*    font-size: clamp(0.8rem, 5vw, 1rem); */
           line-height: 20px;
           font-weight: 300;
           width: 100%;
@@ -1498,11 +1436,7 @@ header {
           transform: translate(-50%, -50%);
           left: -30px;
 }
-/* .timeline ul li:nth-child(3),
-.timeline ul li:nth-child(4) {
-          outline: 5px solid red;
-          z-index: 1000;
-} */
+
 .timeline ul li:hover::after {
           background-color: #6519df;
           transform: scale(1.05);
@@ -1845,7 +1779,7 @@ header {
           color: #fafafa;
           transform: scale(0.8);
 }
-/* Backgorund Images */
+/* Background Images */
 .slide:first-child {
           background: none;
 }
@@ -1864,18 +1798,7 @@ header {
 .slide:nth-child(5) {
           background: url("../images/starship.jpg") no-repeat center top/cover;
 }
-/* .slide:nth-child(5) {
-          background: url("../images/starship.jpg") no-repeat center top/cover;
-} */
-/* .slide:nth-child(5) {
-          background: url("../images/crew-dragon.jpg") no-repeat center
-                    top/cover;
-} */
 
-/* .slide:nth-child(6) {
-          background: url("../images/starlink.jpg") no-repeat center top/cover;
-}
- */
 .content.rocket-content {
           width: 100%;
           z-index: 100;
@@ -1974,10 +1897,7 @@ header {
           top: 0;
           width: 100vw;
           height: 100vh;
-
           background-color: rgba(30, 31, 34, 0.4);
-
-          /*  z-index: 1; */
 }
 
 .launches-title h1 {
@@ -2021,7 +1941,6 @@ header {
 .slide .launches-content4 {
           gap: 1rem;
 }
-/* test position relative content **/
 
 .launche-data,
 .launche-data2,
